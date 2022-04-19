@@ -1,0 +1,10 @@
+﻿<Window x:Class="KayanYazı.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tabela Sistemi" Height="350" Width="525" WindowStartupLocation="CenterScreen">
+    <Canvas Background="#FF657474">
+        <TextBox Name="t1" Background="Transparent" Height="50" Canvas.Top="120" Canvas.Left="70" FontSize="30" TextAlignment="Center" Text="Metninizi giriniz" Foreground="#FFBFBEBE" Opacity="0.5" FontFamily="Snap ITC" GotFocus="t1_GotFocus" CharacterCasing="Upper" Width="350" MaxLength="15"/>
+        <Button Content="Basla" Background="DarkKhaki" Canvas.Left="90" Canvas.Top="208" Width="80" Height="30" FontSize="18" FontWeight="SemiBold" Click="Button_Click_1"   Foreground="White" FontFamily="Vijaya"/>
+        <Button Content="Bitir" Background="DarkKhaki" Canvas.Left="337" Canvas.Top="208" Width="80" Height="30" FontSize="18" FontWeight="SemiBold" Click="Button_Click_2"  Foreground="White" FontFamily="Vijaya"/>
+    </Canvas>
+</Window>
